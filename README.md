@@ -12,12 +12,64 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**, design
 ---
 
 ## ✨ Features
+
 - ✅ **USB HID** – Payload selection and deployment *(Done)*
+
 - 🚧 **Wi-Fi** – *(Work in Progress)*
+  - **Sniffing**
+    - Probe Request Sniff  
+    - Beacon Sniff  
+    - Deauth Sniff  
+    - EAPOL/PMKID Scan  
+    - Packet Monitor  
+    - Detect Pwnagotchi  
+    - Scan APs  
+    - Raw Capture  
+  - **War Driving**
+    - Wardrive  
+    - Station Wardrive  
+  - **Attacks**
+    - Beacon Spam List  
+    - Beacon Spam Random  
+    - Rick Roll Beacon  
+    - Probe Req Flood  
+    - Evil Portal  
+    - Deauth Flood  
+    - AP Clone Spam  
+    - Deauth Targeted  
+  - **Wi-Fi General**
+    - Generate SSIDs  
+    - Save/Load Files  
+    - Add SSIDs  
+    - Clear SSIDs  
+    - Clear APs  
+    - Clear Stations  
+    - Select APs  
+    - Select Stations  
+
 - 🚧 **BTE** – *(Work in Progress)*
+  - **Sniffers**
+    - Bluetooth Sniffer  
+    - Flipper Sniffer  
+    - Airtag Sniffer  
+    - BT Wardrive  
+    - BT Wardrive Continuous  
+    - Detect Card Skimmers  
+  - **Bluetooth Attacks**
+    - Sour Apple  
+    - Swiftpair Spam  
+    - Samsung BLE Spam  
+    - Google BLE Spam  
+    - Flipper BLE Spam  
+    - BLE Spam All  
+    - Spoof Airtag  
+
 - 🚧 **OUI Foxhunter** – *(Work in Progress)*
+
 - ⚙️ **Settings** – Adjust UI colors, clock, Wi-Fi *(Mostly done, need Wi-Fi config)*
+
 - ℹ️ **About** – About the author *(Done)*
+
 
 ---
 
