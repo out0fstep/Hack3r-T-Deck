@@ -1,7 +1,11 @@
+![Screenshot 2](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/file_000000006c7861f590de3b38199f28e0.png)
+
 Hack3r T-Deck v1.0
 created by: out0fstep
 
 Description: Hack3r T-Deck is a Fancy UI for the Lilygo T-Deck Plus.
+
+![Screenshot 1](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/file_0000000012d461f7aa82db854990720c.png)
 
 Features: 
 1. USB HID - Payload selection and deployment (Done)
