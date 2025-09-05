@@ -1,10 +1,8 @@
 # Hack3r T-Deck v1.0
 
-![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/blob/main/1000015418.png)
+![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/1000015418.png)
 
-**Created by:** [out0fstep](https://github.com/out0fstep)  
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-yellow.svg)](https://buymeacoffee.com/out0fstep)
-
+**Created by:** [out0fstep](https://github.com/out0fstep) [![Buy Me A Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)
 
 ---
 
@@ -19,52 +17,52 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**, design
 
 - 🚧 **Wi-Fi** – *(Work in Progress)*
   - **Sniffing**
-    - Probe Request Sniff  
-    - Beacon Sniff  
-    - Deauth Sniff  
-    - EAPOL/PMKID Scan  
-    - Packet Monitor  
-    - Detect Pwnagotchi  
-    - Scan APs  
-    - Raw Capture  
+    - Probe Request Sniff
+    - Beacon Sniff
+    - Deauth Sniff
+    - EAPOL/PMKID Scan
+    - Packet Monitor
+    - Detect Pwnagotchi
+    - Scan APs
+    - Raw Capture
   - **War Driving**
-    - Wardrive  
-    - Station Wardrive  
+    - Wardrive
+    - Station Wardrive
   - **Attacks**
-    - Beacon Spam List  
-    - Beacon Spam Random  
-    - Rick Roll Beacon  
-    - Probe Req Flood  
-    - Evil Portal  
-    - Deauth Flood  
-    - AP Clone Spam  
-    - Deauth Targeted  
+    - Beacon Spam List
+    - Beacon Spam Random
+    - Rick Roll Beacon
+    - Probe Req Flood
+    - Evil Portal
+    - Deauth Flood
+    - AP Clone Spam
+    - Deauth Targeted
   - **Wi-Fi General**
-    - Generate SSIDs  
-    - Save/Load Files  
-    - Add SSIDs  
-    - Clear SSIDs  
-    - Clear APs  
-    - Clear Stations  
-    - Select APs  
-    - Select Stations  
+    - Generate SSIDs
+    - Save/Load Files
+    - Add SSIDs
+    - Clear SSIDs
+    - Clear APs
+    - Clear Stations
+    - Select APs
+    - Select Stations
 
 - 🚧 **BTE** – *(Work in Progress)*
   - **Sniffers**
-    - Bluetooth Sniffer  
-    - Flipper Sniffer  
-    - Airtag Sniffer  
-    - BT Wardrive  
-    - BT Wardrive Continuous  
-    - Detect Card Skimmers  
+    - Bluetooth Sniffer
+    - Flipper Sniffer
+    - Airtag Sniffer
+    - BT Wardrive
+    - BT Wardrive Continuous
+    - Detect Card Skimmers
   - **Bluetooth Attacks**
-    - Sour Apple  
-    - Swiftpair Spam  
-    - Samsung BLE Spam  
-    - Google BLE Spam  
-    - Flipper BLE Spam  
-    - BLE Spam All  
-    - Spoof Airtag  
+    - Sour Apple
+    - Swiftpair Spam
+    - Samsung BLE Spam
+    - Google BLE Spam
+    - Flipper BLE Spam
+    - BLE Spam All
+    - Spoof Airtag
 
 - 🚧 **OUI Foxhunter** – *(Work in Progress)*
 
@@ -73,7 +71,6 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**, design
 - ℹ️ **About** – About the author *(Done)*
 
 ---
-
 
 ## 🎯 Goal
 Create a **fully loaded firmware option** for the T-Deck, combining usability, flexibility, and style.
