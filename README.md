@@ -3,6 +3,8 @@
 ![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/file_000000006c7861f590de3b38199f28e0.png)
 
 **Created by:** [out0fstep](https://github.com/out0fstep)  
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-yellow.svg)](https://buymeacoffee.com/out0fstep)
+
 
 ---
 
