@@ -119,3 +119,4 @@ This firmware includes features intended for **authorized testing, research, and
 
 MIT for the original Hack3r T-Deck code.  
 Marauder components and ports remain under their respective licenses; see upstream.
+
