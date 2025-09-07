@@ -1,13 +1,15 @@
 <div align="center">
 
-# Hack3r T-Deck v1.0
+# Hack3r T-Deck v1.0  
+
+> ⚡️ Hack3r T-Deck is designed to become the **most complete, polished, and daily-drivable firmware** for the LilyGO T-Deck Plus.
 
 ![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/1000015418.png)
 
--=[ **Created by** · [out0fstep](https://github.com/out0fstep)  
-[![☕️ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)
+-=[ **Created by** · [ôu̖̤̔t̝̜̮0̵̿f̠̅s̸̰̋t̫̏̋ȇ̥̭p̢̞̄̎](https://github.com/out0fstep) ]=-  
+[![☕️ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)  
 [![Follow @DorkfeastTeam](https://img.shields.io/badge/follow-@DorkfeastTeam-1DA1F2?logo=x&logoColor=white)](https://x.com/DorkfeastTeam)
-]=-
+
 </div>
 
 ---
@@ -103,9 +105,9 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that ai
 
 ## 🤝 Credits
 
-**Marauder** (Wi-Fi/BLE scans & attacks we’re porting):  
-Author: **justcallmekoko** — Instagram: [@just.call.me.koko](https://www.instagram.com/just.call.me.koko/#)  
-*A suite of Wi-Fi/Bluetooth offensive and defensive tools for ESP32.*
+> 📝 Portions of this project are derived from [Marauder](https://github.com/justcallmekoko/Marauder), by [justcallmekoko](https://www.instagram.com/just.call.me.koko/#).  
+> A suite of Wi-Fi/Bluetooth offensive and defensive tools for ESP32.  
+> Used with credit, under the terms of their license.  
 
 Additional thanks to the LilyGO / T-Deck community builds (Meshtastic, fancy UIs, Marauder ports, launchers) that informed keyboard & trackball behavior and UX flow.
 
