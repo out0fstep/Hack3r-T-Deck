@@ -98,7 +98,9 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that ai
 - [ ] Optional OTA partition map + settings export/import
 - [ ] Theming presets & font pass for small labels
 - [ ] Localization hooks (EN first, then i18n keys)
-
+- [ ] LoRa?
+- [ ] Webserver?
+      
 ---
 
 ## 🤝 Credits
