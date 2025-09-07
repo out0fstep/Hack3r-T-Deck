@@ -44,15 +44,6 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that ai
 
 ---
 
-## 🎯 Final Vision
-
-**One firmware to daily-drive your T-Deck Plus:**
-- Beautiful, consistent UI with softkeys and readable cards
-- Fast input: touch, trackball (0x0A–0x0D auto-detect), and I²C keyboard (0x55) with test modal
-- Solid storage conventions: `/duckyscripts`, `/OUI/vendors.csv`
-
----
-
 ## 📸 Screenshots
 
 ### Main UI
