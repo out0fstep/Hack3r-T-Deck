@@ -4,7 +4,7 @@
 
 ![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/1000015418.png)
 
-**Created by** · [out0fstep](https://github.com/out0fstep)  
+-=[ **Created by** · [out0fstep](https://github.com/out0fstep) ]=- 
 [![☕️ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)
 [![Follow @DorkfeastTeam](https://img.shields.io/badge/follow-@DorkfeastTeam-1DA1F2?logo=x&logoColor=white)](https://x.com/DorkfeastTeam)
 
