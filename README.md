@@ -1,86 +1,133 @@
+<div align="center">
+
 # Hack3r T-Deck v1.0
 
 ![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/1000015418.png)
 
-**Created by:** [out0fstep](https://github.com/out0fstep) [![Buy Me A Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)
+**Created by** · [out0fstep](https://github.com/out0fstep)  
+[![☕️ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)
+[![Follow @DorkfeastTeam](https://img.shields.io/badge/follow-@DorkfeastTeam-1DA1F2?logo=x&logoColor=white)](https://x.com/DorkfeastTeam)
+
+</div>
 
 ---
 
-## 📖 Description
-Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**, designed to provide a polished and feature-rich experience.
+## 📖 What is Hack3r T-Deck?
+
+Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that aims to be the **best all-around firmware** for the device: fast boot, clean navigation (touch / keyboard / trackball), **USB HID payloads**, **Wi-Fi / BLE tooling (Marauder-style)**, an **OUI Foxhunter**, and a modern **Settings** suite (UI color, clock/TZ/NTP, hardware toggles, audio).  
+
+**North Star Goal:** a **stable, good-looking daily driver** for T-Deck Plus that unifies quality UX, practical tooling, and extensibility — so you don’t have to hop between firmware just to get your work done.
 
 ---
 
-## ✨ Features
+## ✨ Features (current & planned)
 
-- ✅ **USB HID** – Payload selection and deployment *(Done)*
+- ✅ **USB HID** — Payload selection + overlay deploy (“Deploying payload…” with progress pulse)
+- 🚧 **Wi-Fi Tools** *(Marauder port, in progress)*
+  - Sniffers: Probe Request, Beacon, Deauth, EAPOL/PMKID, Packet Monitor, Detect Pwnagotchi, Scan APs, Raw Capture
+  - War-driving: Wardrive, Station Wardrive
+  - Attacks: Beacon Spam (List/Random), “Rick Roll” Beacon, Probe Flood, Evil Portal, Deauth Flood/Targeted, AP Clone Spam
+  - Utilities: Generate/Add/Clear SSIDs, Save/Load, Select APs/Stations
+- 🚧 **BTE Tools** *(Marauder port, in progress)*
+  - Sniffers: Bluetooth, Flipper, Airtag, BT Wardrive (std/continuous), Detect Card Skimmers
+  - Attacks: Sour Apple, SwiftPair Spam, Samsung/Google/Flipper BLE spam, BLE Spam All, Spoof Airtag
+- 🚧 **OUI Foxhunter** — Vendor picker from `/OUI/vendors.csv`, “Start Hunt” radar view
+- ⚙️ **Settings**
+  - UI Color, **Clock** (12/24h, TZ list, NTP), **Wi-Fi** (Config/Status w/ eye toggle), **Hardware** (brightness, trackball, keyboard test/profiles), **Audio** (on/off, volume)
+- ℹ️ **About** — Project info & credits
 
-- 🚧 **Wi-Fi** – *(Work in Progress)*
-  - **Sniffing**
-    - Probe Request Sniff
-    - Beacon Sniff
-    - Deauth Sniff
-    - EAPOL/PMKID Scan
-    - Packet Monitor
-    - Detect Pwnagotchi
-    - Scan APs
-    - Raw Capture
-  - **War Driving**
-    - Wardrive
-    - Station Wardrive
-  - **Attacks**
-    - Beacon Spam List
-    - Beacon Spam Random
-    - Rick Roll Beacon
-    - Probe Req Flood
-    - Evil Portal
-    - Deauth Flood
-    - AP Clone Spam
-    - Deauth Targeted
-  - **Wi-Fi General**
-    - Generate SSIDs
-    - Save/Load Files
-    - Add SSIDs
-    - Clear SSIDs
-    - Clear APs
-    - Clear Stations
-    - Select APs
-    - Select Stations
+---
 
-- 🚧 **BTE** – *(Work in Progress)*
-  - **Sniffers**
-    - Bluetooth Sniffer
-    - Flipper Sniffer
-    - Airtag Sniffer
-    - BT Wardrive
-    - BT Wardrive Continuous
-    - Detect Card Skimmers
-  - **Bluetooth Attacks**
-    - Sour Apple
-    - Swiftpair Spam
-    - Samsung BLE Spam
-    - Google BLE Spam
-    - Flipper BLE Spam
-    - BLE Spam All
-    - Spoof Airtag
+## 🎯 Final Vision
 
-- 🚧 **OUI Foxhunter** – *(Work in Progress)*
-
-- ⚙️ **Settings** – Adjust UI colors, clock, Wi-Fi *(Mostly done, need Wi-Fi config)*
-
-- ℹ️ **About** – About the author *(Done)*
+**One firmware to daily-drive your T-Deck Plus:**
+- Beautiful, consistent UI with softkeys and readable cards
+- Fast input: touch, trackball (0x0A–0x0D auto-detect), and I²C keyboard (0x55) with test modal
+- Solid storage conventions: `/duckyscripts`, `/OUI/vendors.csv`, optional `/deploy.png` overlay
+- Clean “categories → submenus → actions” flow, no guesswork
+- Safe defaults, easy to extend
 
 ---
 
 ## 📸 Screenshots
 
 ### Main UI
-![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/blob/main/file_0000000012d461f7aa82db854990720c.png)
+![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/file_0000000012d461f7aa82db854990720c.png)
 
 ### UI Animation
 ![UI Animation](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/animation.gif)
 
 ---
 
-## 🎯 Goal
-Create a **fully loaded firmware option** for the T-Deck, combining usability, flexibility, and style.
+## 🧰 Hardware & I/O (T-Deck Plus)
+
+- **Display / Touch:** LGFX `LGFX_TDeck` (320×240, landscape)
+- **Keyboard (I²C1)**: address `0x55` (profiles: SDA=18/SCL=8 or SDA=18/SCL=17)
+- **Trackball (I²C1)**: auto-detect `0x0A…0x0D`
+- **Peripheral Power:** `PERIPH_POWER = 10` (rails for KB/Trackball)
+- **SD (FSPI):** CS=39, SCK=40, MOSI=41, MISO=38
+- **Battery (ADC):** pin 4, 2:1 divider, EMA smoothing
+- **USB HID:** TinyUSB Keyboard (deploy Ducky scripts)
+
+> **Folders on SD**  
+> ` /duckyscripts/` → .txt ducky payloads  
+> ` /OUI/vendors.csv` → `OUI,Vendor` rows (e.g., `A4:CF:12,Example Corp`)  
+> Optional overlay: ` /deploy.png` (full-screen during payload run)
+
+---
+
+## 🚀 Build & Flash (quick start)
+
+1. **Install dependencies** (ESP32 board pkg, LGFX, TinyUSB HID, etc.).  
+2. **Set board**: *ESP32S3 Dev Module* (16MB), PSRAM **enabled**, Huge APP 3MB or equivalent.  
+3. **Configure pins** if your Plus variant differs (see Hardware & I/O above).  
+4. **Build** a `.bin`.  
+5. **Flash** directly, or copy the `.bin` to your launcher (e.g., M5Launcher) and load it.
+
+> If you boot to a backlit black screen, re-verify: rotation=1, PSRAM mode, app partition size, and that the display driver matches your T-Deck Plus rev.
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Wi-Fi tool wiring (all sniff/wardrive/attack entries callable)
+- [ ] BLE tool wiring (sniffers & attack actions)
+- [ ] OUI Foxhunter scanning + hits list
+- [ ] Audio events (clicks / hunt pips) with volume control
+- [ ] Per-page trackball gestures (left/right page hooks)
+- [ ] Optional OTA partition map + settings export/import
+- [ ] Theming presets & font pass for small labels
+- [ ] Localization hooks (EN first, then i18n keys)
+
+---
+
+## 🤝 Credits
+
+**Marauder** (Wi-Fi/BLE scans & attacks we’re porting):  
+Author: **justcallmekoko** — Instagram: [@just.call.me.koko](https://www.instagram.com/just.call.me.koko/#)  
+*A suite of Wi-Fi/Bluetooth offensive and defensive tools for ESP32.*
+
+Additional thanks to the LilyGO / T-Deck community builds (Meshtastic, fancy UIs, Marauder ports, launchers) that informed keyboard & trackball behavior and UX flow.
+
+---
+
+## 🧪 Contributing
+
+PRs welcome! For feature PRs, try to:
+- Keep UI strings concise and on-brand (card + softkey pattern)
+- Add entries to Settings where appropriate (rather than hidden toggles)
+- Gate risky actions behind confirmations
+- Include a short demo clip or screenshot if the UX changes
+
+---
+
+## 🛡️ Safety & Legal
+
+This firmware includes features intended for **authorized testing, research, and education**. Ensure you have **explicit permission** before scanning or interacting with any network or device.
+
+---
+
+## 📄 License
+
+MIT for the original Hack3r T-Deck code.  
+Marauder components and ports remain under their respective licenses; see upstream.
