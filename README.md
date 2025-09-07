@@ -118,3 +118,19 @@ This firmware includes features intended for **authorized testing, research, and
 MIT for the original Hack3r T-Deck code.  
 Marauder components and ports remain under their respective licenses; see upstream.
 
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Stars](https://img.shields.io/github/stars/out0fstep/Hack3r-T-Deck?style=for-the-badge&logo=github)
+![Forks](https://img.shields.io/github/forks/out0fstep/Hack3r-T-Deck?style=for-the-badge&logo=github)
+![Downloads](https://img.shields.io/github/downloads/out0fstep/Hack3r-T-Deck/total?style=for-the-badge&color=brightgreen)
+
+[![Repo Stats](https://github-readme-stats.vercel.app/api/pin/?username=out0fstep&repo=Hack3r-T-Deck&show_owner=true&theme=radical)](https://github.com/out0fstep/Hack3r-T-Deck)
+
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=out0fstep&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=out0fstep&layout=compact&theme=radical)
+
+</div>
