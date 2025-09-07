@@ -2,7 +2,7 @@
 
 # Hack3r T-Deck v1.0  
 
-![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/1000015418.png)  
+![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/blob/main/Banner.png)  
 <p align="center">
 -=⟦ Hack3r T-Deck is a custom UI firmware designed for the LilyGO T-Deck Plus ⟧=-
 </p>
