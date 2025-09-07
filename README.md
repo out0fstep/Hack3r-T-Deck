@@ -6,7 +6,7 @@
 
 ![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/1000015418.png)
 
--=[ **Created by** · [ôu̖̤̔t̝̜̮0̵̿f̠̅s̸̰̋t̫̏̋ȇ̥̭p̢̞̄̎](https://github.com/out0fstep) ]=-  
+-=[ **Created by** · [out0fstep](https://github.com/out0fstep) ]=-  
 [![☕️ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)  
 [![Follow @DorkfeastTeam](https://img.shields.io/badge/follow-@DorkfeastTeam-1DA1F2?logo=x&logoColor=white)](https://x.com/DorkfeastTeam)
 
@@ -18,7 +18,7 @@
 
 Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that aims to be the **best all-around firmware** for the device: fast boot, clean navigation (touch / keyboard / trackball), **USB HID payloads**, **Wi-Fi / BLE tooling (Marauder-style)**, an **OUI Foxhunter**, and a modern **Settings** suite (UI color, clock/TZ/NTP, hardware toggles, audio).  
 
-**North Star Goal:** a **stable, good-looking daily driver** for T-Deck Plus that unifies quality UX, practical tooling, and extensibility — so you don’t have to hop between firmware just to get your work done.
+**North Star Goal:** a **stable, good-looking daily driver** for T-Deck Plus that unifies quality UX, practical tooling, and extensibility — so you don’t have to hop between firmware as often just to get your work done.
 
 ---
 
@@ -45,9 +45,7 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that ai
 **One firmware to daily-drive your T-Deck Plus:**
 - Beautiful, consistent UI with softkeys and readable cards
 - Fast input: touch, trackball (0x0A–0x0D auto-detect), and I²C keyboard (0x55) with test modal
-- Solid storage conventions: `/duckyscripts`, `/OUI/vendors.csv`, optional `/deploy.png` overlay
-- Clean “categories → submenus → actions” flow, no guesswork
-- Safe defaults, easy to extend
+- Solid storage conventions: `/duckyscripts`, `/OUI/vendors.csv`
 
 ---
 
@@ -74,7 +72,6 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that ai
 > **Folders on SD**  
 > ` /duckyscripts/` → .txt ducky payloads  
 > ` /OUI/vendors.csv` → `OUI,Vendor` rows (e.g., `A4:CF:12,Example Corp`)  
-> Optional overlay: ` /deploy.png` (full-screen during payload run)
 
 ---
 
@@ -109,23 +106,11 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that ai
 > A suite of Wi-Fi/Bluetooth offensive and defensive tools for ESP32.  
 > Used with credit, under the terms of their license.  
 
-Additional thanks to the LilyGO / T-Deck community builds (Meshtastic, fancy UIs, Marauder ports, launchers) that informed keyboard & trackball behavior and UX flow.
-
----
-
-## 🧪 Contributing
-
-PRs welcome! For feature PRs, try to:
-- Keep UI strings concise and on-brand (card + softkey pattern)
-- Add entries to Settings where appropriate (rather than hidden toggles)
-- Gate risky actions behind confirmations
-- Include a short demo clip or screenshot if the UX changes
-
 ---
 
 ## 🛡️ Safety & Legal
 
-This firmware includes features intended for **authorized testing, research, and education**. Ensure you have **explicit permission** before scanning or interacting with any network or device.
+This firmware includes features intended for **authorized testing, research, and education**. Ensure you have **explicit permission** before scanning or interacting with any network or device. **Use at your own risk!!**
 
 ---
 
