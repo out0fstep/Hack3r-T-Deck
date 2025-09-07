@@ -124,10 +124,10 @@ Marauder components and ports remain under their respective licenses; see upstre
 
 <img
   src="https://github-readme-stats.vercel.app/api?username=out0fstep&show_icons=true&bg_color=00000000&hide_border=true&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff"
-  alt="out0fstep GitHub Stats">
-
-<img
+  alt="out0fstep GitHub Stats"><img
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=out0fstep&layout=compact&bg_color=00000000&hide_border=true&title_color=c9d1d9&text_color=8b949e"
   alt="Top Languages">
+
+
 
 </div>
