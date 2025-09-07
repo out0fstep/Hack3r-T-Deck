@@ -28,7 +28,7 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus** that ai
 
 ## ✨ Features (current & planned)
 
-- ✅ **USB HID** — Payload selection + overlay deploy (“Deploying payload…” with progress pulse)
+- ✅ **USB HID** — Payload selection + deployment.
 - 🚧 **Wi-Fi Tools** *(Marauder port, in progress)*
   - Sniffers: Probe Request, Beacon, Deauth, EAPOL/PMKID, Packet Monitor, Detect Pwnagotchi, Scan APs, Raw Capture
   - War-driving: Wardrive, Station Wardrive
