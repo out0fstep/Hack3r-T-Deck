@@ -128,6 +128,8 @@ Marauder components and ports remain under their respective licenses; see upstre
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=out0fstep&layout=compact&bg_color=00000000&hide_border=true&title_color=c9d1d9&text_color=8b949e"
   alt="Top Languages">
 
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=out0fstep/Hack3r-T-Deck&type=Date)](https://www.star-history.com/#out0fstep/Hack3r-T-Deck&Date)
 
 </div>
