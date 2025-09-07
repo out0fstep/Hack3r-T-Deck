@@ -2,15 +2,17 @@
 
 # Hack3r T-Deck v1.0  
 
-
-![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/1000015418.png)
+![Main UI](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/1000015418.png)  
 <p align="center">
 -=⟦ Hack3r T-Deck is a custom UI firmware designed for the LilyGO T-Deck Plus ⟧=-
 </p>
 
-
 -=[ **Created by** · [out0fstep](https://github.com/out0fstep) ]=-  
-[![☕️ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep) [![Follow @DorkfeastTeam](https://img.shields.io/badge/follow-@DorkfeastTeam-1DA1F2?logo=x&logoColor=white)](https://x.com/DorkfeastTeam)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://img.shields.io/github/downloads/out0fstep/Hack3r-T-Deck/total.svg?color=brightgreen)](https://github.com/out0fstep/Hack3r-T-Deck/releases)  
+[![☕️ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)
+[![Follow @DorkfeastTeam](https://img.shields.io/badge/follow-@DorkfeastTeam-1DA1F2?logo=x&logoColor=white)](https://x.com/DorkfeastTeam)
 
 **Ḥą̥̥̍c̷̙̆k̘̝̰̭ T̻ȟ̔̓̀e̛̪̒̌ P̡̢̼̂l̟̑̀a̭n̨̹̖̆e̯̍ṯ̎̕!̶̐̒**
 
