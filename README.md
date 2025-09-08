@@ -20,7 +20,7 @@
 
 ---
 
-## 🟢 📖 What is Hack3r T-Deck?
+## 📖 What is Hack3r T-Deck?
 
 Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**  
 
@@ -28,7 +28,7 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**
 
 ---
 
-## 🟢 ✨ Features (current & planned)
+## ✨ Features (current & planned)
 
 - ✅ **USB HID** — Payload selection + deployment.
 - 🚧 **Wi-Fi Tools** *(Marauder port, in progress)*
@@ -46,7 +46,7 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**
 
 ---
 
-## 🟢 📸 Screenshots
+## 📸 Screenshots
 
 coming soon!
 
@@ -55,7 +55,7 @@ coming soon!
 
 ---
 
-## 🟢 🧰 Hardware & I/O (T-Deck Plus)
+## 🧰 Hardware & I/O (T-Deck Plus)
 
 - **Display / Touch:** LGFX `LGFX_TDeck` (320×240, landscape)
 - **Keyboard (I²C1)**: address `0x55` (profiles: SDA=18/SCL=8 or SDA=18/SCL=17)
@@ -71,7 +71,7 @@ coming soon!
 
 ---
 
-## 🟢 🚀 Build & Flash (quick start)
+## 🚀 Build & Flash (quick start)
 
 1. **Install dependencies** (ESP32 board pkg, LGFX, TinyUSB HID, etc.).  
 2. **Set board**: *ESP32S3 Dev Module* (16MB), PSRAM **enabled**, Huge APP 3MB or equivalent.  
@@ -83,7 +83,7 @@ coming soon!
 
 ---
 
-## 🟢 🗺️ Roadmap
+## 🗺️ Roadmap
 
 - [ ] Wi-Fi tool wiring (all sniff/wardrive/attack entries callable)
 - [ ] BLE tool wiring (sniffers & attack actions)
@@ -98,7 +98,7 @@ coming soon!
       
 ---
 
-## 🟢 🤝 Credits
+## 🤝 Credits
 
 > 📝 Portions of this project are derived from [Marauder](https://github.com/justcallmekoko/Marauder), by [justcallmekoko](https://www.instagram.com/just.call.me.koko/#).  
 > A suite of Wi-Fi/Bluetooth offensive and defensive tools for ESP32.  
@@ -106,20 +106,20 @@ coming soon!
 
 ---
 
-## 🟢 🛡️ Safety & Legal
+## 🛡️ Safety & Legal
 
 This firmware includes features intended for **authorized testing, research, and education**. Ensure you have **explicit permission** before scanning or interacting with any network or device. **Use at your own risk!!**
 
 ---
 
-## 🟢 📄 License
+## 📄 License
 
 MIT for the original Hack3r T-Deck code.  
 Marauder components and ports remain under their respective licenses; see upstream.
 
 ---
 
-## 🟢 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
