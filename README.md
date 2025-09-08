@@ -22,7 +22,7 @@
 
 ## 📖 What is Hack3r T-Deck?
 
-Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**  
+Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**, it's one of those see if i can projects...
 
 **North Star Goal:** a **stable, good-looking daily driver** for T-Deck Plus that unifies quality UX, practical tooling, and extensibility — so you don’t have to hop between firmware as often just to get your work done.
 
