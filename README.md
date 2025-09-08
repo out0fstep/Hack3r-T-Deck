@@ -40,6 +40,8 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**, it's o
   - Sniffers: Bluetooth, Flipper, Airtag, BT Wardrive (std/continuous), Detect Card Skimmers
   - Attacks: Sour Apple, SwiftPair Spam, Samsung/Google/Flipper BLE spam, BLE Spam All, Spoof Airtag
 - 🚧 **OUI Foxhunter** — Vendor picker from `/OUI/vendors.csv`, “Start Hunt” radar view
+- 🚧 **LoRa** — Encypted chat broadcast?
+- 🚧 **WebServer** - Web portal for more options?
 - ⚙️ **Settings**
   - UI Color, Clock, Wi-Fi, Hardware, Audio
 - ℹ️ **About** — Project info & credits
