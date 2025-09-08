@@ -66,7 +66,7 @@ coming soon!
 
 > **Folders on SD**  
 > ` /duckyscripts/` → .txt ducky payloads  
-> ` /OUI/vendors.csv` → `OUI,Vendor` rows (e.g., `A4:CF:12,Example Corp`)  
+> ` /OUI/vendors.txt` → `OUI,Vendor list` 
 
 ---
 
