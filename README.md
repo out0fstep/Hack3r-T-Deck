@@ -52,9 +52,6 @@ Hack3r T-Deck is a **custom UI firmware** for the **LilyGO T-Deck Plus**, it's o
 
 coming soon!
 
-### UI Animation
-![UI Animation](https://github.com/out0fstep/Hack3r-T-Deck/raw/main/animation.gif)
-
 ---
 
 ## 🧰 Hardware & I/O (T-Deck Plus)
